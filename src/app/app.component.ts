@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ChatgptService } from './services/chatgpt.service';
+import { ChatgptService } from '../services/chatgpt.service';
 
 @Component({
   selector: 'app-root',
