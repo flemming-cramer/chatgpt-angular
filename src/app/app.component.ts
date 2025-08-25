@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { ChatgptService } from '../services/chatgpt.service';
 
 @Component({
   selector: 'app-root',
+  imports: [FormsModule],
   template: `
     <div>
       <textarea [(ngModel)]="userInput" placeholder="Type your message"></textarea>
